@@ -21,6 +21,7 @@ import { from } from 'rxjs';
 import { AuthComponent } from './auth/auth.component';
 import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
 import { AuthInterceporService } from './auth/auth-interceptor.service';
+import { AlertComponent } from './shared/shared/alert.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AuthInterceporService } from './auth/auth-interceptor.service';
     RecipeStartComponent,
     RecipeEditComponent,
     AuthComponent,
-    LoadingSpinnerComponent
+    LoadingSpinnerComponent,
+    AlertComponent
   ],
   imports: [
     BrowserModule,
