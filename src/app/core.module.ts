@@ -6,7 +6,13 @@ import { ShoppingListService } from './shopping-list/shopping-list.service';
 
 @NgModule({
     providers: [
-        ShoppingListService, RecipeService, {provide: HTTP_INTERCEPTORS, useClass: AuthInterceporService, multi: true}
+        ShoppingListService, 
+        RecipeService, 
+        {
+            provide: HTTP_INTERCEPTORS, 
+            useClass: AuthInterceporService, 
+            multi: true
+        }
     ]
 })
 export class CoreModule {}
