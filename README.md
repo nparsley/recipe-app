@@ -2,7 +2,7 @@
 
 * User-friendly Recipe Book and Shopping List app allowing users to create, edit, and store recipes, ingredients, and custom shopping lists.
 * Angular app written in typescript.
-* Visit the site here: <a href="https://recipe-app-np.herokuapp.com/auth">Recipe-App</a>
+* Visit the site here: <a href="https://recipe-app-np.herokuapp.com/auth" target="_blank">Recipe-App</a>
 
 <img src='/src/assets/recipeapph1.PNG'>
 
