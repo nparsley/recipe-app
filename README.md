@@ -1,27 +1,21 @@
-# RecipeApp
+# OVERVIEW
 
-<!-- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
+* User-friendly Recipe Book and Shopping List app allowing users to create, edit, and store recipes, ingredients, and custom shopping lists.
+* Angular app written in typescript.
+* Visit the site here: <a href="https://recipe-app-np.herokuapp.com/auth">Recipe-App</a>
 
-## Development server
+<img src='/assets/img/recipeapph1.PNG'>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* The user will be directed to either log-in or sign-up.
+* Once logged in, the user will have the ability to create new recipes or retrieve any previuosly saved recipes.
 
-## Code scaffolding
+<img src='/assets/img/newrecipe.PNG'>
+<img src='/assets/img/userlogin1.PNG'>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* The user can select a recipe to edit, delete, or add the listed ingredients to the shopping-list.
+* The shopping-list will allow the user to add, edit, and delete ingredients.
 
-## Build
+<img src='/assets/img/recipeedit1.PNG'>
+<img src='/assets/img/shoppinglist1.PNG'>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md). -->
+* Auto-login/logout for each user is set at one hour.
